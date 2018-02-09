@@ -114,7 +114,7 @@
   <increaseFanForCooling>0</increaseFanForCooling>
   <minFanLayerTime>45</minFanLayerTime>
   <maxCoolingFanSpeed>100</maxCoolingFanSpeed>
-  <increaseFanForBridging>0</increaseFanForBridging>
+  <increaseFanForBridging>1</increaseFanForBridging>
   <bridgingFanSpeed>100</bridgingFanSpeed>
   <use5D>1</use5D>
   <relativeEdistances>0</relativeEdistances>
@@ -213,7 +213,7 @@
     <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
-      <setpoint layer="3" speed="100"/>
+      <setpoint layer="2" speed="100"/>
     </fanSpeed>
   </autoConfigureMaterial>
   <autoConfigureMaterial name="ABS">
@@ -223,46 +223,26 @@
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
     </fanSpeed>
-  </autoConfigureMaterial>
-  <autoConfigureMaterial name="PVA">
-    <globalExtruderTemperature>195</globalExtruderTemperature>
-    <globalBedTemperature>80</globalBedTemperature>
-    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
-    <fanSpeed>
-      <setpoint layer="1" speed="0"/>
-      <setpoint layer="2" speed="100"/>
-    </fanSpeed>
-  </autoConfigureMaterial>
-  <autoConfigureMaterial name="Nylon">
-    <globalExtruderTemperature>220</globalExtruderTemperature>
-    <globalBedTemperature>80</globalBedTemperature>
-    <globalExtrusionMultiplier>1</globalExtrusionMultiplier>
-    <fanSpeed>
-      <setpoint layer="1" speed="0"/>
-    </fanSpeed>
-  </autoConfigureMaterial>
+  </autoConfigureMaterial> 
   <autoConfigureQuality name="Fast">
-    <layerHeight>0.3</layerHeight>
-    <topSolidLayers>3</topSolidLayers>
+    <layerHeight>0.35</layerHeight>
+    <topSolidLayers>4</topSolidLayers>
     <bottomSolidLayers>3</bottomSolidLayers>
-    <skirtLayers>1</skirtLayers>
-    <infillPercentage>15</infillPercentage>
-    <supportInfillPercentage>25</supportInfillPercentage>
+    <firstLayerHeightPercentage>57</firstLayerHeightPercentage>
+    <solidInfillUnderspeed>0.66</solidInfillUnderspeed>
   </autoConfigureQuality>
-  <autoConfigureQuality name="Medium">
+  <autoConfigureQuality name="Normal">
     <layerHeight>0.2</layerHeight>
     <topSolidLayers>5</topSolidLayers>
     <bottomSolidLayers>4</bottomSolidLayers>
-    <skirtLayers>1</skirtLayers>
-    <infillPercentage>20</infillPercentage>
-    <supportInfillPercentage>30</supportInfillPercentage>
+    <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
+    <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   </autoConfigureQuality>
-  <autoConfigureQuality name="High">
-    <layerHeight>0.1</layerHeight>
-    <topSolidLayers>4</topSolidLayers>
+  <autoConfigureQuality name="Optimal">
+    <layerHeight>0.15</layerHeight>
+    <topSolidLayers>5</topSolidLayers>
     <bottomSolidLayers>4</bottomSolidLayers>
-    <skirtLayers>2</skirtLayers>
-    <infillPercentage>30</infillPercentage>
-    <supportInfillPercentage>40</supportInfillPercentage>
+    <firstLayerHeightPercentage>133</firstLayerHeightPercentage>
+    <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
   </autoConfigureQuality>
 </profile>
