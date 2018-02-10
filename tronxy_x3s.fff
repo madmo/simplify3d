@@ -223,7 +223,7 @@
     <fanSpeed>
       <setpoint layer="1" speed="0"/>
     </fanSpeed>
-  </autoConfigureMaterial> 
+  </autoConfigureMaterial>
   <autoConfigureQuality name="Fast">
     <layerHeight>0.35</layerHeight>
     <topSolidLayers>4</topSolidLayers>
