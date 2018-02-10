@@ -230,6 +230,7 @@
     <bottomSolidLayers>3</bottomSolidLayers>
     <firstLayerHeightPercentage>57</firstLayerHeightPercentage>
     <solidInfillUnderspeed>0.66</solidInfillUnderspeed>
+    <perimeterOutlines>2</perimeterOutlines>
   </autoConfigureQuality>
   <autoConfigureQuality name="Normal">
     <layerHeight>0.2</layerHeight>
@@ -237,12 +238,22 @@
     <bottomSolidLayers>4</bottomSolidLayers>
     <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
     <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
+    <perimeterOutlines>2</perimeterOutlines>
   </autoConfigureQuality>
   <autoConfigureQuality name="Optimal">
     <layerHeight>0.15</layerHeight>
-    <topSolidLayers>5</topSolidLayers>
-    <bottomSolidLayers>4</bottomSolidLayers>
+    <topSolidLayers>7</topSolidLayers>
+    <bottomSolidLayers>5</bottomSolidLayers>
     <firstLayerHeightPercentage>133</firstLayerHeightPercentage>
     <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
+    <perimeterOutlines>3</perimeterOutlines>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="Detail">
+    <layerHeight>0.1</layerHeight>
+    <topSolidLayers>9</topSolidLayers>
+    <bottomSolidLayers>7</bottomSolidLayers>
+    <firstLayerHeightPercentage>200</firstLayerHeightPercentage>
+    <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
+    <perimeterOutlines>3</perimeterOutlines>
   </autoConfigureQuality>
 </profile>
