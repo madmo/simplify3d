@@ -2,7 +2,7 @@
 <profile name="Tronxy X3S" version="2018-02-08 20:33:36" app="S3D-Software 4.0.1">
   <baseProfile>Default</baseProfile>
   <printMaterial>PLA</printMaterial>
-  <printQuality>Medium</printQuality>
+  <printQuality>Normal</printQuality>
   <printExtruders></printExtruders>
   <extruder name="Extruder 1">
     <toolheadNumber>0</toolheadNumber>
@@ -228,7 +228,7 @@
     <layerHeight>0.35</layerHeight>
     <topSolidLayers>4</topSolidLayers>
     <bottomSolidLayers>3</bottomSolidLayers>
-    <firstLayerHeightPercentage>57</firstLayerHeightPercentage>
+    <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
     <solidInfillUnderspeed>0.66</solidInfillUnderspeed>
     <perimeterOutlines>2</perimeterOutlines>
   </autoConfigureQuality>
